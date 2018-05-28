@@ -11,7 +11,7 @@ import Main from './components/main'
 import Footer from './components/footer'
 import Header from './components/header'
 import './App.css'
-import Reduxing from './components/reduxing'
+import {view as Reduxing} from './components/reduxing'
 
 class App extends Component {
   constructor(props){
@@ -49,4 +49,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
